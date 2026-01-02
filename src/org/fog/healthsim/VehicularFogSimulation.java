@@ -3,6 +3,7 @@
 
 package org.fog.healthsim;
 
+
 import org.fog.entities.FogDevice;
 import org.fog.entities.FogDeviceCharacteristics;
 import org.fog.policy.AppModuleAllocationPolicy;

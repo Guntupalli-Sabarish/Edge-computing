@@ -1,9 +1,6 @@
 lab Assignment - 5
 
 
-Here is the `README.md` for your Fog Clustering Simulation, designed to match the structure and depth of the example you provided.
-
----
 
 # Fog Computing Clustering Simulation - SimpleFogClustering
 
