@@ -1,6 +1,6 @@
 # Edge Computing Projects & Assignments
 
-This repository contains various simulations and implementations for Edge and Fog computing assignments, built upon the **iFogSim2** toolkit.
+This repository contains various simulations and implementations for Edge and Fog computing, built upon the **iFogSim2** toolkit.
 
 ## 📂 Project Index
 
@@ -19,7 +19,7 @@ This repository contains various simulations and implementations for Edge and Fo
 *   **Source Code**: [`src/org/fog/healthsim/FogHierarchyDemo.java`](./src/org/fog/healthsim/FogHierarchyDemo.java)
 *   **Documentation**: [Fog Hierarchy demo.md](./Fog%20Hierarchy%20demo.md)
 
-### 4. Raspberry Pi Architecture & Edge Computing (Assignment 7)
+### 4. Raspberry Pi Architecture & Edge Computing 
 *   **Description**: Detailed analysis of Raspberry Pi hardware architecture and its application as an Edge Node.
 *   **Source Code**: [`src/org/fog/healthsim/Assignment7.java`](./src/org/fog/healthsim/Assignment7.java) (Q&A / Notes)
 *   **Documentation**: [Raspberry Pi Architecture & Edge Computing.md](./Raspberry%20Pi%20Architecture%20&%20Edge%20Computing.md)
