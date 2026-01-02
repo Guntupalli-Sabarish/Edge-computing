@@ -1,48 +1,65 @@
-# iFogSim2 (The New Version)
-A Toolkit for Modeling and Simulation of Resource Management Techniques in Internet of Things, Edge and Fog Computing Environments with the following new features:
- * Mobility-support and Migration Management
-   * Supporting real mobility datasets
-   * Implementing different random mobility models 
- * Microservice Orchestration
- * Dynamic Distributed Clustering
- * Any Combinations of Above-mentioned Features
- * Full Compatibility with the Latest Version of the CloudSim (i.e., [CloudSim 5](https://github.com/Cloudslab/cloudsim/releases)) and [Previous iFogSim Version](https://github.com/Cloudslab/iFogSim1) and Tutorials
+# Edge Computing Projects & Assignments
 
-iFogSim2 currently encompasses several new usecases such as:
- * Audio Translation Scenario
- * Healthcare Scenario
- * Crowd-sensing Scenario
+This repository contains various simulations and implementations for Edge and Fog computing assignments, built upon the **iFogSim2** toolkit.
 
-# How to run iFogSim2 ?
-* Eclipse IDE:
-  * Create a Java project
-  * Inside the project directory, initialize an empty Git repository with the following command:
-  ```
-  git init
-  ```
-  * Add the Git repository of iFogSim2 as the `origin` remote:
-  ```
-  git remote add origin https://github.com/Cloudslab/iFogSim
-  ```
-  * Pull the contents of the repository to your machine:
-  ```
-  git pull origin main
-  ```
-  * Include the JARs to your project  
-  * Run the example files (e.g. TranslationServiceFog_Clustering.java, CrowdSensing_Microservices_RandomMobility_Clustering.java) to get started
+## 📂 Project Index
 
-* IntelliJ IDEA:
-  * Clone the iFogSim2 Git repository to desired folder:
-  ```
-  git clone https://github.com/Cloudslab/iFogSim
-  ```
-  * Select "project from existing resources" from the "File" drop-down menu
-  * Verify the Java version
-  * Verify the external libraries in the "JARs" Folder are added to the project
-  * Run the example files (e.g. TranslationServiceFog_Clustering.java, CrowdSensing_Microservices_RandomMobility_Clustering.java) to get started
+### 1. Vehicular Fog Simulation
+*   **Description**: A comprehensive simulation of vehicular fog computing environments, modeling mobility and resource management.
+*   **Source Code**: [`src/org/fog/healthsim/VehicularFogSimulation.java`](./src/org/fog/healthsim/VehicularFogSimulation.java)
+*   **Documentation**: [VehicularFogSimulation-README.md](./VehicularFogSimulation-README.md)
 
+### 2. Fog Clustering Simulation (Assignment 5)
+*   **Description**: Demonstrates dynamic clustering in a fog environment to optimize resource usage and latency.
+*   **Source Code**: [`src/org/fog/healthsim/SimpleFogClustering.java`](./src/org/fog/healthsim/SimpleFogClustering.java)
+*   **Documentation**: [Fog Clustering simulation and analysis.md](./Fog%20Clustering%20simulation%20and%20analysis.md)
 
-# References
- * Redowan Mahmud, Samodha Pallewatta, Mohammad Goudarzi, and Rajkumar Buyya, <A href="https://arxiv.org/abs/2109.05636">iFogSim2: An Extended iFogSim Simulator for Mobility, Clustering, and Microservice Management in Edge and Fog Computing Environments</A>, Journal of Systems and Software (JSS), Volume 190, Pages: 1-17, ISSN:0164-1212, Elsevier Press, Amsterdam, The Netherlands, August 2022.
- * Harshit Gupta, Amir Vahid Dastjerdi , Soumya K. Ghosh, and Rajkumar Buyya, <A href="http://www.buyya.com/papers/iFogSim.pdf">iFogSim: A Toolkit for Modeling and Simulation of Resource Management Techniques in Internet of Things, Edge and Fog Computing Environments</A>, Software: Practice and Experience (SPE), Volume 47, Issue 9, Pages: 1275-1296, ISSN: 0038-0644, Wiley Press, New York, USA, September 2017.
- * Redowan Mahmud and Rajkumar Buyya, <A href="http://www.buyya.com/papers/iFogSim-Tut.pdf">Modelling and Simulation of Fog and Edge Computing Environments using iFogSim Toolkit</A>, Fog and Edge Computing: Principles and Paradigms, R. Buyya and S. Srirama (eds), 433-466pp, ISBN: 978-111-95-2498-4, Wiley Press, New York, USA, January 2019.
+### 3. Fog Hierarchy Demo (Assignment 6)
+*   **Description**: A demonstration of a three-tier fog architecture (Cloud → Gateway → Edge), illustrating parent-child relationships and latency modeling.
+*   **Source Code**: [`src/org/fog/healthsim/FogHierarchyDemo.java`](./src/org/fog/healthsim/FogHierarchyDemo.java)
+*   **Documentation**: [Fog Hierarchy demo.md](./Fog%20Hierarchy%20demo.md)
+
+### 4. Raspberry Pi Architecture & Edge Computing (Assignment 7)
+*   **Description**: Detailed analysis of Raspberry Pi hardware architecture and its application as an Edge Node.
+*   **Source Code**: [`src/org/fog/healthsim/Assignment7.java`](./src/org/fog/healthsim/Assignment7.java) (Q&A / Notes)
+*   **Documentation**: [Raspberry Pi Architecture & Edge Computing.md](./Raspberry%20Pi%20Architecture%20&%20Edge%20Computing.md)
+
+### 5. Node-RED IoT Analytics (Assignment 9)
+*   **Description**: Simulation of Edge Analytics using Node-RED. Includes logic for Anomaly Detection, Vibration Analysis, and Smart Grid monitoring.
+*   **Source Code**: [`src/org/fog/healthsim/Assignment9.java`](./src/org/fog/healthsim/Assignment9.java) (Contains JavaScript logic for Node-RED functions)
+*   **Documentation**: [Node-RED Edge Computing Simulation - IoT Analytics.md](./Node-RED%20Edge%20Computing%20Simulation%20-%20IoT%20Analytics.md)
+
+### 6. Health Monitoring Simulation
+*   **Description**: A dedicated simulation for healthcare scenarios, modeling patient sensors and real-time data processing in the Fog.
+*   **Source Code**: [`src/org/fog/healthsim/HealthMonitoringSim.java`](./src/org/fog/healthsim/HealthMonitoringSim.java)
+*   **Documentation**: [HealthMonitoringSim-README.md](./HealthMonitoringSim-README.md)
+
+### 7. Heterogeneous Fog Example
+*   **Description**: Demonstrates the capability to simulate heterogeneous fog devices with varying resource capacities.
+*   **Source Code**: [`src/org/fog/healthsim/HeterogeneousFogExample.java`](./src/org/fog/healthsim/HeterogeneousFogExample.java)
+*   **Documentation**: [HeterogeneousFogExample-README.md](./HeterogeneousFogExample-README.md)
+
+### 8. Sensor Implementation Example
+*   **Description**: Provides examples of how to implement and configure sensors within the iFogSim environment.
+*   **Source Code**: [`src/org/fog/healthsim/SensorExample.java`](./src/org/fog/healthsim/SensorExample.java)
+*   **Documentation**: [SensorImplementation-README.md](./SensorImplementation-README.md)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+*   **Java JDK 8+**
+*   **iFogSim2 Toolkit Libraries** (included in `jars/`)
+
+### Running a Simulation
+1.  Open the project in your preferred IDE (IntelliJ IDEA or Eclipse).
+2.  Ensure all JAR files in the `jars/` directory are added to the project classpath.
+3.  Navigate to the source directory: `src/org/fog/healthsim/`.
+4.  Right-click on the desired Java file (e.g., `FogHierarchyDemo.java`) and select **Run**.
+
+---
+
+## 📚 References
+*   This repository utilizes the **iFogSim2** toolkit.
+*   Original iFogSim2 Documentation: [GitHub/Cloudslab/iFogSim](https://github.com/Cloudslab/iFogSim)
